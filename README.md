@@ -43,8 +43,10 @@ portfolio/
 
 <img width="492" height="471" alt="mobile" src="https://github.com/user-attachments/assets/bfe0c82e-ef6e-43dd-98fc-94e331c821e3" />
 
+
 ![Portfolio Screenshot - Desktop](images/screenshot-desktop.png)
 *Responsive desktop view*
+
 
 ![Portfolio Screenshot - Mobile](images/screenshot-mobile.png)
 *Mobile optimized layout*
