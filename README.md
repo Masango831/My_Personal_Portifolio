@@ -39,6 +39,9 @@ portfolio/
 
 <img width="1362" height="626" alt="MyPortifolio" src="https://github.com/user-attachments/assets/4aaff4b6-acd8-41b5-87cf-c7774e85c4ae" />
 
+<img width="1350" height="636" alt="desktop" src="https://github.com/user-attachments/assets/d4818d11-efcb-4504-8898-d8434845317a" />
+
+<img width="492" height="471" alt="mobile" src="https://github.com/user-attachments/assets/bfe0c82e-ef6e-43dd-98fc-94e331c821e3" />
 
 ![Portfolio Screenshot - Desktop](images/screenshot-desktop.png)
 *Responsive desktop view*
