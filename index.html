@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white text-gray-800 font-sans scroll-smooth">
+    <nav class="bg-gray-800 text-white p-4 fixed top-0 w-full z-50">
+      <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <div class="text-xl font-bold">My Portfolio</div>
+        <ul class="flex space-x-4">
+          <li><a href="#home" class="hover:text-blue-300">Home</a></li>
+          <li><a href="#about" class="hover:text-blue-300">About</a></li>
+          <li><a href="#projects" class="hover:text-blue-300">Projects</a></li>
+          <li><a href="#contact" class="hover:text-blue-300">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section
+      id="home"
+      class="h-screen flex items-center justify-center bg-gray-100 pt-20"
+    >
+      <div class="text-center space-y-4">
+        <img
+          src="My_Personal_Portfolio/images/avatar.jpeg"
+          alt="Your Photo"
+          class="mx-auto w-32 h-32 rounded-full shadow-lg"
+        />
+        <h1 class="text-4xl font-bold">Masango Dewheretsoko</h1>
+        <p class="text-xl text-gray-600">Web Developer & Designer</p>
+        <p class="italic text-blue-600">"Building digital dreams with code."</p>
+      </div>
+    </section>
+    <section id="about" class="py-16 bg-white">
+      <div class="max-w-5xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-6 text-center">About Me</h2>
+        <div class="md:flex gap-10">
+          <div class="flex-1">
+            <p class="mb-4">
+              I am a passionate web developer with a love for building clean,
+              user-friendly websites.
+            </p>
+            <p>
+              My goal is to become a full-stack developer and contribute to
+              meaningful open-source projects.
+            </p>
+          </div>
+          <div class="flex-1 mt-6 md:mt-0">
+            <h3 class="text-xl font-semibold mb-2">Skills</h3>
+            <ul class="grid grid-cols-2 gap-2 text-sm">
+              <li class="bg-gray-100 p-2 rounded">HTML</li>
+              <li class="bg-gray-100 p-2 rounded">CSS</li>
+              <li class="bg-gray-100 p-2 rounded">JavaScript</li>
+              <li class="bg-gray-100 p-2 rounded">Tailwind CSS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="py-16 bg-gray-50">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-6 text-center">Projects</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div
+            class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition hover:scale-105"
+          >
+            <img
+              src="My_Personal_Portfolio/images/project1.png"
+              alt="Project 1"
+              class="mb-4 rounded"
+            />
+            <h3 class="text-xl font-semibold">Portfolio Website</h3>
+            <p class="text-sm mb-2">
+              Built with HTML, Tailwind CSS. Showcases my work and resume.
+            </p>
+            <div class="flex space-x-4">
+              <a
+                href="https://github.com/yourusername/project1"
+                target="_blank"
+                class="text-blue-600 hover:underline"
+                >GitHub</a
+              >
+              <a
+                href="https://yourlinkedinprofile.com"
+                target="_blank"
+                class="text-blue-600 hover:underline"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+          <div
+            class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition hover:scale-105"
+          >
+            <img
+              src="My_Personal_Portfolio/images/project2.png"
+              alt="Project 2"
+              class="mb-4 rounded"
+            />
+            <h3 class="text-xl font-semibold">ToDo App</h3>
+            <p class="text-sm mb-2">
+              A task manager app using JS and Tailwind CSS.
+            </p>
+            <div class="flex space-x-4">
+              <a
+                href="https://github.com/yourusername/project2"
+                target="_blank"
+                class="text-blue-600 hover:underline"
+                >GitHub</a
+              >
+              <a
+                href="https://yourlinkedinprofile.com"
+                target="_blank"
+                class="text-blue-600 hover:underline"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+          <div
+            class="bg-white p-4 rounded-lg shadow hover:shadow-lg transition hover:scale-105"
+          >
+            <img
+              src="My_Personal_Portfolio/images/project3.png"
+              alt="Project 3"
+              class="mb-4 rounded"
+            />
+            <h3 class="text-xl font-semibold">Weather App</h3>
+            <p class="text-sm mb-2">
+              Real-time weather app using OpenWeather API.
+            </p>
+            <div class="flex space-x-4">
+              <a
+                href="https://github.com/yourusername/project3"
+                target="_blank"
+                class="text-blue-600 hover:underline"
+                >GitHub</a
+              >
+              <a
+                href="https://yourlinkedinprofile.com"
+                target="_blank"
+                class="text-blue-600 hover:underline"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="py-16 bg-white">
+      <div class="max-w-xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-6 text-center">Contact Me</h2>
+        <form class="space-y-4">
+          <input
+            type="text"
+            placeholder="Name"
+            class="w-full p-2 border rounded"
+            required
+          />
+          <input
+            type="email"
+            placeholder="Email"
+            class="w-full p-2 border rounded"
+            required
+          />
+          <textarea
+            placeholder="Message"
+            rows="4"
+            class="w-full p-2 border rounded"
+            required
+          ></textarea>
+          <button
+            type="submit"
+            class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer class="text-center p-4 bg-gray-800 text-white mt-10">
+      &copy; 2025 Masango Dewheretsoko. All rights reserved.
+      <div class="mt-2">
+        <a
+          href="https://github.com/Masngo"
+          target="_blank"
+          class="text-blue-300 hover:underline"
+          >GitHub</a
+        >
+        |
+        <a
+          href="https://www.linkedin.com/in/masango-dewheretsoko-5ba182148"
+          target="_blank"
+          class="text-blue-300 hover:underline"
+          >LinkedIn</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
