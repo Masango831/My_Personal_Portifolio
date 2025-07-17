@@ -37,6 +37,9 @@ portfolio/
 
 ## 📸 Screenshots
 
+<img width="1362" height="626" alt="MyPortifolio" src="https://github.com/user-attachments/assets/4aaff4b6-acd8-41b5-87cf-c7774e85c4ae" />
+
+
 ![Portfolio Screenshot - Desktop](images/screenshot-desktop.png)
 *Responsive desktop view*
 
